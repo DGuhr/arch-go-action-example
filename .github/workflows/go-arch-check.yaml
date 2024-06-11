@@ -1,0 +1,12 @@
+name: Go Arch GitHub Action Demo
+on: [pull_request]
+jobs:
+  Go-Arch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Perform architecture check
+        uses: DGuhr/arch-go-action@main
+        with:
+          version: v1.5.2
+          generate_report: true
+          verbose: true
