@@ -1,4 +1,4 @@
-name: Go Arch GitHub Action Demo
+name: Arch Go GitHub Action Demo
 on: [pull_request]
 jobs:
   Go-Arch:
