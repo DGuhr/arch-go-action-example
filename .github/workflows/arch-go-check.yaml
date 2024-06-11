@@ -1,7 +1,7 @@
 name: Arch Go GitHub Action Demo
 on: [pull_request]
 jobs:
-  Go-Arch:
+  Arch-Go-Check:
     runs-on: ubuntu-latest
     steps:
       - name: Perform architecture check
