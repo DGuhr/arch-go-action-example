@@ -7,9 +7,9 @@ import (
 
 func Wrong() {
 	var rootCmd = &cobra.Command{
-		Use:   "authz --config <config.yaml>",
-		Short: "authz service, alpha.",
-		Long:  `authz service based on zanzibar access systems. alpha`,
+		Use:   "test",
+		Short: "test",
+		Long:  `testtest`,
 	}
 
 	if err := rootCmd.Execute(); err != nil {
