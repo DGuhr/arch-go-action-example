@@ -11,6 +11,6 @@ jobs:
       - name: Perform architecture check
         uses: DGuhr/arch-go-action@main
         with:
-          version: v1.5.2
+          version: v1.5.4
           generate_report: true
           verbose: true
